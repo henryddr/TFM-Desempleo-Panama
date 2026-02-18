@@ -101,11 +101,7 @@ jupyter notebook notebooks/TFM_Memoria_Henry_De_Gracia.ipynb
 Ejecutar todas las celdas (Kernel > Restart & Run All). El notebook genera los graficos
 interactivos Plotly y muestra los mapas incrustados.
 
-Para exportar a HTML:
-
-```bash
-jupyter nbconvert --to html notebooks/TFM_Memoria_Henry_De_Gracia.ipynb
-```
+Tambien disponible en formato HTML y PDF en la raiz del repositorio.
 
 ### Paso 4: Ejecutar el dashboard interactivo
 
