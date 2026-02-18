@@ -1,0 +1,53 @@
+{
+  "mejor_modelo": "XGBoost",
+  "metricas_cv": {
+    "mae": 1.1103,
+    "rmse": 1.4991,
+    "r2": 0.779
+  },
+  "todos_modelos_cv": {
+    "Ridge": {
+      "mae": 1.4557,
+      "rmse": 1.9386,
+      "r2": 0.6258
+    },
+    "Lasso": {
+      "mae": 1.4579,
+      "rmse": 1.9436,
+      "r2": 0.6239
+    },
+    "RandomForest": {
+      "mae": 1.4059,
+      "rmse": 1.8798,
+      "r2": 0.6456
+    },
+    "GradientBoosting": {
+      "mae": 1.1664,
+      "rmse": 1.5755,
+      "r2": 0.7551
+    },
+    "XGBoost": {
+      "mae": 1.1103,
+      "rmse": 1.4991,
+      "r2": 0.779
+    }
+  },
+  "n_features": 31,
+  "n_filas": 1605,
+  "n_periodos": 17,
+  "n_provincias": 13,
+  "precision_riesgo_train": 0.9389,
+  "precision_riesgo_cv": 0.7994,
+  "features_top10": [
+    "pct_subempleo_lag1",
+    "tasa_desempleo_lag1",
+    "educacion_alta",
+    "sexo_mujeres",
+    "pct_sin_educacion",
+    "mediana_salario",
+    "pct_empresa_grande",
+    "desempleo_juvenil_nacional",
+    "pct_mayores_pea",
+    "empleo_informal_pct_delta"
+  ]
+}
